@@ -10,13 +10,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/unit02/MethodServlet")
+@WebServlet("/MethodServlet")
 public class MethodServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-
+	//생성자 생성
     public MethodServlet() {
-        super();
+        //부모 클래스 생성자 호출
+    	super();
         // TODO Auto-generated constructor stub
     }
 
